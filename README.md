@@ -14,7 +14,7 @@ Based on [react-es6-webpack-boilerplate](https://github.com/vasanthk/react-es6-w
 
 ### Usage
 
-```
+```bash
 npm install
 npm start
 # Open http://localhost:5000
@@ -24,7 +24,7 @@ npm start
 
 ESLint with React linting options have been enabled.
 
-```
+```bash
 npm run lint
 ```
 
@@ -33,11 +33,13 @@ npm run lint
 Start Karma test runner.
 
 This will run the tests only one, ideal for CI (travis and such).
-```
+
+```bash
 npm test
 ```
 
 This will auto watch all files for changes and rerun the tests. Ideal for development.
-```
+
+```bash
 npm run test_watch
 ```
